@@ -1,10 +1,10 @@
-package com.example.ex15interceptor_middleware2;
+package com.example.interceptor2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Ex15interceptorMiddleware2ApplicationTests {
+class Interceptor2Tests {
 
 	@Test
 	void contextLoads() {

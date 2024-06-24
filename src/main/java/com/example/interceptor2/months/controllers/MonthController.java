@@ -1,6 +1,6 @@
-package com.example.ex15interceptor_middleware2.months.controllers;
+package com.example.interceptor2.months.controllers;
 
-import com.example.ex15interceptor_middleware2.months.models.Month;
+import com.example.interceptor2.months.models.Month;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

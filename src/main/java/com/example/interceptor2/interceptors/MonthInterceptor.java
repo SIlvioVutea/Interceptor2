@@ -1,6 +1,6 @@
-package com.example.ex15interceptor_middleware2.interceptors;
+package com.example.interceptor2.interceptors;
 
-import com.example.ex15interceptor_middleware2.months.models.Month;
+import com.example.interceptor2.months.models.Month;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.lang.Nullable;
@@ -37,9 +37,9 @@ public class MonthInterceptor implements HandlerInterceptor {
             }).findFirst();
             if (month.isEmpty()) {
                 Month emptyMonth = new Month();
-                emptyMonth.setEnglishName("none");
-                emptyMonth.setGermanName("none");
-                emptyMonth.setItalianName("none");
+                emptyMonth.setEnglishName("None");
+                emptyMonth.setGermanName("None");
+                emptyMonth.setItalianName("None");
                 request.setAttribute("MonthInterceptor-month", emptyMonth);
                 response.setStatus(HttpServletResponse.SC_OK);
                 return true;

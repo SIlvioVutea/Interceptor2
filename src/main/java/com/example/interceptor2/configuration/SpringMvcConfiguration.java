@@ -1,6 +1,6 @@
-package com.example.ex15interceptor_middleware2.configuration;
+package com.example.interceptor2.configuration;
 
-import com.example.ex15interceptor_middleware2.interceptors.MonthInterceptor;
+import com.example.interceptor2.interceptors.MonthInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

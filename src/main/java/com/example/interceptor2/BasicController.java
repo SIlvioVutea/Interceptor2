@@ -1,4 +1,4 @@
-package com.example.ex15interceptor_middleware2;
+package com.example.interceptor2;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.example.ex15interceptor_middleware2.months.models;
+package com.example.interceptor2.months.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
