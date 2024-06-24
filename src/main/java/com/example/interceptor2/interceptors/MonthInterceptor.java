@@ -37,9 +37,9 @@ public class MonthInterceptor implements HandlerInterceptor {
             }).findFirst();
             if (month.isEmpty()) {
                 Month emptyMonth = new Month();
-                emptyMonth.setEnglishName("None");
-                emptyMonth.setGermanName("None");
-                emptyMonth.setItalianName("None");
+                emptyMonth.setEnglishName("nope");
+                emptyMonth.setGermanName("nope");
+                emptyMonth.setItalianName("nope");
                 request.setAttribute("MonthInterceptor-month", emptyMonth);
                 response.setStatus(HttpServletResponse.SC_OK);
                 return true;
